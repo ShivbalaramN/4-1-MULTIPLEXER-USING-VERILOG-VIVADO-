@@ -8,22 +8,23 @@
 
 **sel[1:0]      Output (y)**
 
-    00              a
+    00              d0
     
-    01              b
+    01              d1
     
-    10              c
+    10              d2
     
-    11              d
+    11              d3
 
 **🧠 Working Principle**
- sel = 00 → Output = a
 
- sel = 01 → Output = b
+ sel = 00 → Output = d0
 
- sel = 10 → Output = c
+ sel = 01 → Output = d1
 
- sel = 11 → Output = d
+ sel = 10 → Output = d2
+
+ sel = 11 → Output = d3
 
  👉 Select lines act as control inputs to choose the data.
 
